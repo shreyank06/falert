@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "$lib": ["falert/frontend/lib"],
+            "$lib/*": ["falert/frontend/lib/*"]
+        }
+    },
+    "include": [
+        "falert/frontend/**/*.d.ts",
+        "falert/frontend/**/*.js",
+        "falert/frontend/**/*.svelte"
+    ]
+}
